@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_listview"
+        android:title="@string/action_listview"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_favorites"
+        android:title="@string/action_favorites"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_mapview"
+        android:title="@string/action_mapview"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_balanceview"
+        android:title="@string/action_balanceview"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_signout"
+        android:title="@string/action_signout"
+        app:showAsAction="never"/>
+
+</menu>
